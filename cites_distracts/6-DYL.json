@@ -1,0 +1,1114 @@
+[
+    {
+        "id": 2288,
+        "name": "خانقين",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1185,
+        "ebhar_id": null
+    },
+    {
+        "id": 2289,
+        "name": "جلولاء",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1186,
+        "ebhar_id": null
+    },
+    {
+        "id": 2290,
+        "name": "السعدية",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1187,
+        "ebhar_id": null
+    },
+    {
+        "id": 2291,
+        "name": "مجمع سد حمرين",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1188,
+        "ebhar_id": null
+    },
+    {
+        "id": 2292,
+        "name": "قرة تبة",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1189,
+        "ebhar_id": null
+    },
+    {
+        "id": 2293,
+        "name": "نفط خانة",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1190,
+        "ebhar_id": null
+    },
+    {
+        "id": 2294,
+        "name": "المنذرية",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1191,
+        "ebhar_id": null
+    },
+    {
+        "id": 2295,
+        "name": "بعقوبة",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1192,
+        "ebhar_id": null
+    },
+    {
+        "id": 2296,
+        "name": "التحرير",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1193,
+        "ebhar_id": null
+    },
+    {
+        "id": 2297,
+        "name": "بهرز",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1194,
+        "ebhar_id": null
+    },
+    {
+        "id": 2298,
+        "name": "شارع المحافظة",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1195,
+        "ebhar_id": null
+    },
+    {
+        "id": 2299,
+        "name": "فلكة الامين",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1196,
+        "ebhar_id": null
+    },
+    {
+        "id": 2300,
+        "name": "ام كرفس",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1197,
+        "ebhar_id": null
+    },
+    {
+        "id": 2301,
+        "name": "تقاطع البلدة",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1198,
+        "ebhar_id": null
+    },
+    {
+        "id": 2302,
+        "name": "شفتة",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1199,
+        "ebhar_id": null
+    },
+    {
+        "id": 2303,
+        "name": "الفلاحة",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1200,
+        "ebhar_id": null
+    },
+    {
+        "id": 2304,
+        "name": "شارع الطابوة",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1201,
+        "ebhar_id": null
+    },
+    {
+        "id": 2305,
+        "name": "نهر الحجية",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1202,
+        "ebhar_id": null
+    },
+    {
+        "id": 2306,
+        "name": "حي المصطفى",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1203,
+        "ebhar_id": null
+    },
+    {
+        "id": 2307,
+        "name": "المفرق",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1204,
+        "ebhar_id": null
+    },
+    {
+        "id": 2308,
+        "name": "حي المعلمين",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1205,
+        "ebhar_id": null
+    },
+    {
+        "id": 2309,
+        "name": "مجمع الصناعي",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1206,
+        "ebhar_id": null
+    },
+    {
+        "id": 2310,
+        "name": "كاطون",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1207,
+        "ebhar_id": null
+    },
+    {
+        "id": 2311,
+        "name": "الرحمة",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1208,
+        "ebhar_id": null
+    },
+    {
+        "id": 2312,
+        "name": "مجمع الرحمة",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1209,
+        "ebhar_id": null
+    },
+    {
+        "id": 2313,
+        "name": "مجمع السكني الرحمة",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1210,
+        "ebhar_id": null
+    },
+    {
+        "id": 2314,
+        "name": "تقاطع القدس",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1211,
+        "ebhar_id": null
+    },
+    {
+        "id": 2315,
+        "name": "الهويدر",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1212,
+        "ebhar_id": null
+    },
+    {
+        "id": 2316,
+        "name": "شارع ابو رباح",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1213,
+        "ebhar_id": null
+    },
+    {
+        "id": 2317,
+        "name": "الرازي",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1214,
+        "ebhar_id": null
+    },
+    {
+        "id": 2318,
+        "name": "كنعان",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1215,
+        "ebhar_id": null
+    },
+    {
+        "id": 2319,
+        "name": "البدعة",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1216,
+        "ebhar_id": null
+    },
+    {
+        "id": 2320,
+        "name": "نهر ابراهيم",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1217,
+        "ebhar_id": null
+    },
+    {
+        "id": 2321,
+        "name": "حي الخضراء",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1218,
+        "ebhar_id": null
+    },
+    {
+        "id": 2322,
+        "name": "دور مندلي",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1219,
+        "ebhar_id": null
+    },
+    {
+        "id": 2323,
+        "name": "بلدروز",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1220,
+        "ebhar_id": null
+    },
+    {
+        "id": 2324,
+        "name": "حي العصري",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1221,
+        "ebhar_id": null
+    },
+    {
+        "id": 2325,
+        "name": "امام عسكر",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1222,
+        "ebhar_id": null
+    },
+    {
+        "id": 2326,
+        "name": "حي الحشد",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1223,
+        "ebhar_id": null
+    },
+    {
+        "id": 2327,
+        "name": "كيلو 21",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1224,
+        "ebhar_id": null
+    },
+    {
+        "id": 2328,
+        "name": "امام المنصور",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1225,
+        "ebhar_id": null
+    },
+    {
+        "id": 2329,
+        "name": "سيد سبانة",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1226,
+        "ebhar_id": null
+    },
+    {
+        "id": 2330,
+        "name": "مندلي",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1227,
+        "ebhar_id": null
+    },
+    {
+        "id": 2331,
+        "name": "جسر النفط",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1228,
+        "ebhar_id": null
+    },
+    {
+        "id": 2332,
+        "name": "قزانية",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1229,
+        "ebhar_id": null
+    },
+    {
+        "id": 2333,
+        "name": "الامام الحاج يوسف",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1230,
+        "ebhar_id": null
+    },
+    {
+        "id": 2334,
+        "name": "كرز الدين",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1231,
+        "ebhar_id": null
+    },
+    {
+        "id": 2335,
+        "name": "قرية الندى",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1232,
+        "ebhar_id": null
+    },
+    {
+        "id": 2336,
+        "name": "خرنابات",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1233,
+        "ebhar_id": null
+    },
+    {
+        "id": 2337,
+        "name": "الحد الاخضر",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1234,
+        "ebhar_id": null
+    },
+    {
+        "id": 2338,
+        "name": "تقاطع السادة",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1235,
+        "ebhar_id": null
+    },
+    {
+        "id": 2339,
+        "name": "العبارة",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1236,
+        "ebhar_id": null
+    },
+    {
+        "id": 2340,
+        "name": "حد مكسر",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1237,
+        "ebhar_id": null
+    },
+    {
+        "id": 2341,
+        "name": "زاغنية",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1238,
+        "ebhar_id": null
+    },
+    {
+        "id": 2342,
+        "name": "ركة الحاج سهيل",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1239,
+        "ebhar_id": null
+    },
+    {
+        "id": 2343,
+        "name": "الكبة",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1240,
+        "ebhar_id": null
+    },
+    {
+        "id": 2344,
+        "name": "منطقة الحديد",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1241,
+        "ebhar_id": null
+    },
+    {
+        "id": 2345,
+        "name": "الهاشميات",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1242,
+        "ebhar_id": null
+    },
+    {
+        "id": 2346,
+        "name": "هبهب",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1243,
+        "ebhar_id": null
+    },
+    {
+        "id": 2347,
+        "name": "جديدة الشط",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1244,
+        "ebhar_id": null
+    },
+    {
+        "id": 2348,
+        "name": "منصورية الشط",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1245,
+        "ebhar_id": null
+    },
+    {
+        "id": 2349,
+        "name": "القصيرين",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1246,
+        "ebhar_id": null
+    },
+    {
+        "id": 2350,
+        "name": "الغالبية",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1247,
+        "ebhar_id": null
+    },
+    {
+        "id": 2351,
+        "name": "جسر الغالبية",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1248,
+        "ebhar_id": null
+    },
+    {
+        "id": 2352,
+        "name": "سعدية الشط",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1249,
+        "ebhar_id": null
+    },
+    {
+        "id": 2353,
+        "name": "جيزاني الامام",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1250,
+        "ebhar_id": null
+    },
+    {
+        "id": 2354,
+        "name": "شهربان",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1251,
+        "ebhar_id": null
+    },
+    {
+        "id": 2355,
+        "name": "حي العسكري",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1252,
+        "ebhar_id": null
+    },
+    {
+        "id": 2356,
+        "name": "حي المعلمين شهربان",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1253,
+        "ebhar_id": null
+    },
+    {
+        "id": 2357,
+        "name": "حي العصري شهربان",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1254,
+        "ebhar_id": null
+    },
+    {
+        "id": 2358,
+        "name": "جسر مهروت",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1255,
+        "ebhar_id": null
+    },
+    {
+        "id": 2359,
+        "name": "تقاطع برشته",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1256,
+        "ebhar_id": null
+    },
+    {
+        "id": 2360,
+        "name": "قرية سلامة",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1257,
+        "ebhar_id": null
+    },
+    {
+        "id": 2361,
+        "name": "الهارونية",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1258,
+        "ebhar_id": null
+    },
+    {
+        "id": 2362,
+        "name": "العزي",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1259,
+        "ebhar_id": null
+    },
+    {
+        "id": 2363,
+        "name": "بروانة",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1260,
+        "ebhar_id": null
+    },
+    {
+        "id": 2364,
+        "name": "كيلو 13",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1261,
+        "ebhar_id": null
+    },
+    {
+        "id": 2365,
+        "name": "امام ويس",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1262,
+        "ebhar_id": null
+    },
+    {
+        "id": 2366,
+        "name": "منقطة نوفل",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1263,
+        "ebhar_id": null
+    },
+    {
+        "id": 2367,
+        "name": "زهيرات",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1264,
+        "ebhar_id": null
+    },
+    {
+        "id": 2368,
+        "name": "ابو صيدا",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1265,
+        "ebhar_id": null
+    },
+    {
+        "id": 2369,
+        "name": "الوجيهية",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1266,
+        "ebhar_id": null
+    },
+    {
+        "id": 2370,
+        "name": "تقاطع الجيزاني",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1267,
+        "ebhar_id": null
+    },
+    {
+        "id": 2371,
+        "name": "فلكة مصطفى الجواد",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1268,
+        "ebhar_id": null
+    },
+    {
+        "id": 2372,
+        "name": "عليبات",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1269,
+        "ebhar_id": null
+    },
+    {
+        "id": 2373,
+        "name": "كوبات",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1270,
+        "ebhar_id": null
+    },
+    {
+        "id": 2374,
+        "name": "السندية",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1271,
+        "ebhar_id": null
+    },
+    {
+        "id": 2375,
+        "name": "مدرسة عشتار",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1272,
+        "ebhar_id": null
+    },
+    {
+        "id": 2376,
+        "name": "مدخل سيد يوسف",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1273,
+        "ebhar_id": null
+    },
+    {
+        "id": 2377,
+        "name": "مقام الخضر",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1274,
+        "ebhar_id": null
+    },
+    {
+        "id": 2378,
+        "name": "منقطة الدوجمة",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1275,
+        "ebhar_id": null
+    },
+    {
+        "id": 2379,
+        "name": "جزاني الجول",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1276,
+        "ebhar_id": null
+    },
+    {
+        "id": 2380,
+        "name": "النايل",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1277,
+        "ebhar_id": null
+    },
+    {
+        "id": 2381,
+        "name": "العظيم",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1278,
+        "ebhar_id": null
+    },
+    {
+        "id": 2382,
+        "name": "منطقة التحويلة",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1279,
+        "ebhar_id": null
+    },
+    {
+        "id": 2383,
+        "name": "منطقة الاسود",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1280,
+        "ebhar_id": null
+    },
+    {
+        "id": 2384,
+        "name": "سيطرة كصب",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1281,
+        "ebhar_id": null
+    },
+    {
+        "id": 2385,
+        "name": "ابو تمر",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1282,
+        "ebhar_id": null
+    },
+    {
+        "id": 2386,
+        "name": "دلي عباس",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1283,
+        "ebhar_id": null
+    },
+    {
+        "id": 2387,
+        "name": "ناحية السلام",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1284,
+        "ebhar_id": null
+    },
+    {
+        "id": 2388,
+        "name": "منصورة الجبل",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1285,
+        "ebhar_id": null
+    },
+    {
+        "id": 2389,
+        "name": "شروين",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1286,
+        "ebhar_id": null
+    },
+    {
+        "id": 2390,
+        "name": "العنبكية",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1287,
+        "ebhar_id": null
+    },
+    {
+        "id": 2391,
+        "name": "الوندية",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1288,
+        "ebhar_id": null
+    },
+    {
+        "id": 2392,
+        "name": "السراجق",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1289,
+        "ebhar_id": null
+    },
+    {
+        "id": 2393,
+        "name": "النقيب",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1290,
+        "ebhar_id": null
+    },
+    {
+        "id": 2394,
+        "name": "الماجدية",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1291,
+        "ebhar_id": null
+    },
+    {
+        "id": 2395,
+        "name": "منطقة الكراج",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1292,
+        "ebhar_id": null
+    },
+    {
+        "id": 2396,
+        "name": "السوق",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1293,
+        "ebhar_id": null
+    },
+    {
+        "id": 2397,
+        "name": "المتنزه",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1294,
+        "ebhar_id": null
+    },
+    {
+        "id": 2398,
+        "name": "جامع عمار بن ياسر",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1295,
+        "ebhar_id": null
+    },
+    {
+        "id": 2399,
+        "name": "بني سعد",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1296,
+        "ebhar_id": null
+    },
+    {
+        "id": 2400,
+        "name": "ناحية محمد سكران",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1297,
+        "ebhar_id": null
+    },
+    {
+        "id": 2401,
+        "name": "التاميم",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1298,
+        "ebhar_id": null
+    },
+    {
+        "id": 2402,
+        "name": "قرية خلوف",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1299,
+        "ebhar_id": null
+    },
+    {
+        "id": 2403,
+        "name": "حي العسكري / خان بني سعد",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1300,
+        "ebhar_id": null
+    },
+    {
+        "id": 2404,
+        "name": "المرادية",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1301,
+        "ebhar_id": null
+    },
+    {
+        "id": 2405,
+        "name": "17 تموز",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1302,
+        "ebhar_id": null
+    },
+    {
+        "id": 2406,
+        "name": "دور الضباط",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1303,
+        "ebhar_id": null
+    },
+    {
+        "id": 2407,
+        "name": "قرية ابو سير",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1304,
+        "ebhar_id": null
+    },
+    {
+        "id": 2408,
+        "name": "حي الشهداء",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1305,
+        "ebhar_id": null
+    },
+    {
+        "id": 2409,
+        "name": "الخالص",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1645,
+        "ebhar_id": null
+    },
+    {
+        "id": 2410,
+        "name": "الحويش",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 1666,
+        "ebhar_id": null
+    },
+    {
+        "id": 2411,
+        "name": "المقدادية",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 3743,
+        "ebhar_id": null
+    },
+    {
+        "id": 2412,
+        "name": "خان بني سعد",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 3786,
+        "ebhar_id": null
+    },
+    {
+        "id": 2413,
+        "name": "منطقة الحكيم",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 3992,
+        "ebhar_id": null
+    },
+    {
+        "id": 2414,
+        "name": "جرف الملح",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 3993,
+        "ebhar_id": null
+    },
+    {
+        "id": 2415,
+        "name": "بعقوبة الجديدة",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 4346,
+        "ebhar_id": null
+    },
+    {
+        "id": 2416,
+        "name": "ناحية جبارة",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 4347,
+        "ebhar_id": null
+    },
+    {
+        "id": 2417,
+        "name": "حي اليرموك",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 4359,
+        "ebhar_id": null
+    },
+    {
+        "id": 2418,
+        "name": "سد حمرين",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 4393,
+        "ebhar_id": null
+    },
+    {
+        "id": 2419,
+        "name": "الحديد",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 4434,
+        "ebhar_id": null
+    },
+    {
+        "id": 2420,
+        "name": "الناي",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 4637,
+        "ebhar_id": null
+    },
+    {
+        "id": 2421,
+        "name": "حي المهندسين",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 4736,
+        "ebhar_id": null
+    },
+    {
+        "id": 2422,
+        "name": "المنصورية",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 4825,
+        "ebhar_id": null
+    },
+    {
+        "id": 2423,
+        "name": "الباوية",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 5021,
+        "ebhar_id": null
+    },
+    {
+        "id": 2424,
+        "name": "ضباب",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 5038,
+        "ebhar_id": null
+    },
+    {
+        "id": 2425,
+        "name": "الحساويه",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 5039,
+        "ebhar_id": null
+    },
+    {
+        "id": 2426,
+        "name": "قرية العكر",
+        "state_id": 6,
+        "is_prime_supported": false,
+        "prime_id": 5045,
+        "ebhar_id": null
+    }
+]

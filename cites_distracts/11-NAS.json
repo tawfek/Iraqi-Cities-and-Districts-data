@@ -1,0 +1,818 @@
+[
+    {
+        "id": 2884,
+        "name": "الرفاعي",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 831,
+        "ebhar_id": null
+    },
+    {
+        "id": 2885,
+        "name": "قلعة سكر",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 832,
+        "ebhar_id": null
+    },
+    {
+        "id": 2886,
+        "name": "نصر",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 833,
+        "ebhar_id": null
+    },
+    {
+        "id": 2887,
+        "name": "الفجر",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 834,
+        "ebhar_id": null
+    },
+    {
+        "id": 2888,
+        "name": "الشطرة",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 835,
+        "ebhar_id": null
+    },
+    {
+        "id": 2889,
+        "name": "دواية",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 836,
+        "ebhar_id": null
+    },
+    {
+        "id": 2890,
+        "name": "الغراف",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 837,
+        "ebhar_id": null
+    },
+    {
+        "id": 2891,
+        "name": "الجبايش",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 838,
+        "ebhar_id": null
+    },
+    {
+        "id": 2892,
+        "name": "الفهود",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 839,
+        "ebhar_id": null
+    },
+    {
+        "id": 2893,
+        "name": "الاصلاح",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 840,
+        "ebhar_id": null
+    },
+    {
+        "id": 2894,
+        "name": "المنار",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 841,
+        "ebhar_id": null
+    },
+    {
+        "id": 2895,
+        "name": "الحمار",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 842,
+        "ebhar_id": null
+    },
+    {
+        "id": 2896,
+        "name": "السجن الاصلاحي",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 843,
+        "ebhar_id": null
+    },
+    {
+        "id": 2897,
+        "name": "سيد دخيل",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 844,
+        "ebhar_id": null
+    },
+    {
+        "id": 2898,
+        "name": "سوق الشيوخ",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 845,
+        "ebhar_id": null
+    },
+    {
+        "id": 2899,
+        "name": "كرمة بني سعيد",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 846,
+        "ebhar_id": null
+    },
+    {
+        "id": 2900,
+        "name": "الكعيكة",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 847,
+        "ebhar_id": null
+    },
+    {
+        "id": 2901,
+        "name": "الطار",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 848,
+        "ebhar_id": null
+    },
+    {
+        "id": 2902,
+        "name": "الفضلية",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 849,
+        "ebhar_id": null
+    },
+    {
+        "id": 2903,
+        "name": "البطحة",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 850,
+        "ebhar_id": null
+    },
+    {
+        "id": 2904,
+        "name": "الحبوبي",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 851,
+        "ebhar_id": null
+    },
+    {
+        "id": 2905,
+        "name": "الادارة المحلية",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 852,
+        "ebhar_id": null
+    },
+    {
+        "id": 2906,
+        "name": "حي سومر",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 853,
+        "ebhar_id": null
+    },
+    {
+        "id": 2907,
+        "name": "منطقة 400 دار",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 854,
+        "ebhar_id": null
+    },
+    {
+        "id": 2908,
+        "name": "حي اريدو",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 855,
+        "ebhar_id": null
+    },
+    {
+        "id": 2909,
+        "name": "حي التضحية",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 856,
+        "ebhar_id": null
+    },
+    {
+        "id": 2910,
+        "name": "حي الفداء",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 857,
+        "ebhar_id": null
+    },
+    {
+        "id": 2911,
+        "name": "حي الرحمة",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 858,
+        "ebhar_id": null
+    },
+    {
+        "id": 2912,
+        "name": "الحي العسكري",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 859,
+        "ebhar_id": null
+    },
+    {
+        "id": 2913,
+        "name": "الشرقية",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 860,
+        "ebhar_id": null
+    },
+    {
+        "id": 2914,
+        "name": "الزهراء",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 861,
+        "ebhar_id": null
+    },
+    {
+        "id": 2915,
+        "name": "الموحية",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 862,
+        "ebhar_id": null
+    },
+    {
+        "id": 2916,
+        "name": "الشيباني",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 863,
+        "ebhar_id": null
+    },
+    {
+        "id": 2917,
+        "name": "صوب الشامية",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 864,
+        "ebhar_id": null
+    },
+    {
+        "id": 2918,
+        "name": "حي المتنزه",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 865,
+        "ebhar_id": null
+    },
+    {
+        "id": 2919,
+        "name": "المنصورية",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 866,
+        "ebhar_id": null
+    },
+    {
+        "id": 2920,
+        "name": "الشموخ",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 867,
+        "ebhar_id": null
+    },
+    {
+        "id": 2921,
+        "name": "الاسكان القديم",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 868,
+        "ebhar_id": null
+    },
+    {
+        "id": 2922,
+        "name": "الاسكان الصناعي",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 869,
+        "ebhar_id": null
+    },
+    {
+        "id": 2923,
+        "name": "السكك",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 870,
+        "ebhar_id": null
+    },
+    {
+        "id": 2924,
+        "name": "العمارات السكنية",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 871,
+        "ebhar_id": null
+    },
+    {
+        "id": 2925,
+        "name": "حي الرسول",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 872,
+        "ebhar_id": null
+    },
+    {
+        "id": 2926,
+        "name": "حي الروسي",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 1568,
+        "ebhar_id": null
+    },
+    {
+        "id": 2927,
+        "name": "الطاقة",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 1569,
+        "ebhar_id": null
+    },
+    {
+        "id": 2928,
+        "name": "قاعدة الامام علي",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 1570,
+        "ebhar_id": null
+    },
+    {
+        "id": 2929,
+        "name": "حي الامير",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 1571,
+        "ebhar_id": null
+    },
+    {
+        "id": 2930,
+        "name": "العكر",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 1572,
+        "ebhar_id": null
+    },
+    {
+        "id": 2931,
+        "name": "الثورة",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 1573,
+        "ebhar_id": null
+    },
+    {
+        "id": 2932,
+        "name": "العرجة",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 1574,
+        "ebhar_id": null
+    },
+    {
+        "id": 2933,
+        "name": "المهيدية",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 1575,
+        "ebhar_id": null
+    },
+    {
+        "id": 2934,
+        "name": "حي اور",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 1576,
+        "ebhar_id": null
+    },
+    {
+        "id": 2935,
+        "name": "المدينة",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 1577,
+        "ebhar_id": null
+    },
+    {
+        "id": 2936,
+        "name": "شارع 30",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 1578,
+        "ebhar_id": null
+    },
+    {
+        "id": 2937,
+        "name": "التضحية",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 1579,
+        "ebhar_id": null
+    },
+    {
+        "id": 2938,
+        "name": "الفداء",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 1580,
+        "ebhar_id": null
+    },
+    {
+        "id": 2939,
+        "name": "السيدناوية",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 1581,
+        "ebhar_id": null
+    },
+    {
+        "id": 2940,
+        "name": "ناحية اور",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 1582,
+        "ebhar_id": null
+    },
+    {
+        "id": 2941,
+        "name": "حي الزهراء",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 1583,
+        "ebhar_id": null
+    },
+    {
+        "id": 2942,
+        "name": "حي الحكيم",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 1584,
+        "ebhar_id": null
+    },
+    {
+        "id": 2943,
+        "name": "قرب العلوة",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 1585,
+        "ebhar_id": null
+    },
+    {
+        "id": 2944,
+        "name": "الصالحية",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 1586,
+        "ebhar_id": null
+    },
+    {
+        "id": 2945,
+        "name": "ابراهيم الخليل",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 1587,
+        "ebhar_id": null
+    },
+    {
+        "id": 2946,
+        "name": "شارع 20",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 1588,
+        "ebhar_id": null
+    },
+    {
+        "id": 2947,
+        "name": "حي الجامعة",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 1589,
+        "ebhar_id": null
+    },
+    {
+        "id": 2948,
+        "name": "جامعة ذي قار",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 1590,
+        "ebhar_id": null
+    },
+    {
+        "id": 2949,
+        "name": "الشهداء",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 1591,
+        "ebhar_id": null
+    },
+    {
+        "id": 2950,
+        "name": "سومر",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 1592,
+        "ebhar_id": null
+    },
+    {
+        "id": 2951,
+        "name": "حي الرافدين",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 1593,
+        "ebhar_id": null
+    },
+    {
+        "id": 2952,
+        "name": "حي الحسين",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 1594,
+        "ebhar_id": null
+    },
+    {
+        "id": 2953,
+        "name": "شركة اور",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 1595,
+        "ebhar_id": null
+    },
+    {
+        "id": 2954,
+        "name": "دور الالمنيوم",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 1596,
+        "ebhar_id": null
+    },
+    {
+        "id": 2955,
+        "name": "القابلوات",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 1597,
+        "ebhar_id": null
+    },
+    {
+        "id": 2956,
+        "name": "شارع بغداد",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 1598,
+        "ebhar_id": null
+    },
+    {
+        "id": 2957,
+        "name": "الشعلة",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 1599,
+        "ebhar_id": null
+    },
+    {
+        "id": 2958,
+        "name": "مدينة الصدر",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 1600,
+        "ebhar_id": null
+    },
+    {
+        "id": 2959,
+        "name": "حي المعلمين",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 1601,
+        "ebhar_id": null
+    },
+    {
+        "id": 2960,
+        "name": "الناصرية",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 1664,
+        "ebhar_id": null
+    },
+    {
+        "id": 2961,
+        "name": "طريق الناصرية غراف",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 3815,
+        "ebhar_id": null
+    },
+    {
+        "id": 2962,
+        "name": "الطليعة",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 3816,
+        "ebhar_id": null
+    },
+    {
+        "id": 2963,
+        "name": "حي البشائر",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 4008,
+        "ebhar_id": null
+    },
+    {
+        "id": 2964,
+        "name": "ناحية النصر",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 4023,
+        "ebhar_id": null
+    },
+    {
+        "id": 2965,
+        "name": "النصر",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 4024,
+        "ebhar_id": null
+    },
+    {
+        "id": 2966,
+        "name": "مدخل الفضائية",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 4025,
+        "ebhar_id": null
+    },
+    {
+        "id": 2967,
+        "name": "الشمامرة",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 4026,
+        "ebhar_id": null
+    },
+    {
+        "id": 2968,
+        "name": "منطقة الزاوية",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 4027,
+        "ebhar_id": null
+    },
+    {
+        "id": 2969,
+        "name": "حي الشهداء",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 4028,
+        "ebhar_id": null
+    },
+    {
+        "id": 2970,
+        "name": "الزيرج البحوالة",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 4029,
+        "ebhar_id": null
+    },
+    {
+        "id": 2971,
+        "name": "البطحاء",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 4030,
+        "ebhar_id": null
+    },
+    {
+        "id": 2972,
+        "name": "الحسينية",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 4031,
+        "ebhar_id": null
+    },
+    {
+        "id": 2973,
+        "name": "حي البكر",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 4299,
+        "ebhar_id": null
+    },
+    {
+        "id": 2974,
+        "name": "شارع النبي ابراهيم",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 4327,
+        "ebhar_id": null
+    },
+    {
+        "id": 2975,
+        "name": "شارع السفينة ",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 4329,
+        "ebhar_id": null
+    },
+    {
+        "id": 2976,
+        "name": "منطقة الصابئة",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 4331,
+        "ebhar_id": null
+    },
+    {
+        "id": 2977,
+        "name": "الفريحي ",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 4344,
+        "ebhar_id": null
+    },
+    {
+        "id": 2978,
+        "name": "الشوفة",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 4356,
+        "ebhar_id": null
+    },
+    {
+        "id": 2979,
+        "name": "شارع المحكمة الجديدة ",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 4370,
+        "ebhar_id": null
+    },
+    {
+        "id": 2980,
+        "name": "الحي الصناعي",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 4445,
+        "ebhar_id": null
+    },
+    {
+        "id": 2981,
+        "name": "السايح",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 4516,
+        "ebhar_id": null
+    },
+    {
+        "id": 2982,
+        "name": "حي التحرير",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 4606,
+        "ebhar_id": null
+    },
+    {
+        "id": 2983,
+        "name": "الطلاحبة",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 4767,
+        "ebhar_id": null
+    },
+    {
+        "id": 2984,
+        "name": "القرية العصرية",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 4983,
+        "ebhar_id": null
+    },
+    {
+        "id": 2985,
+        "name": "الامام شريف",
+        "state_id": 11,
+        "is_prime_supported": false,
+        "prime_id": 5056,
+        "ebhar_id": null
+    }
+]

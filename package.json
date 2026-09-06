@@ -1,0 +1,13 @@
+{
+  "name": "iraqi-cities-districts-data",
+  "version": "1.0.0",
+  "description": "Open JSON reference data for Iraqi cities and districts.",
+  "private": false,
+  "license": "CC-BY-4.0",
+  "scripts": {
+    "validate": "node scripts/validate.js"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}

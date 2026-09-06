@@ -1,0 +1,1250 @@
+[
+    {
+        "id": 3280,
+        "name": "بكره جو",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 975,
+        "ebhar_id": null
+    },
+    {
+        "id": 3281,
+        "name": "بازيان",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 976,
+        "ebhar_id": null
+    },
+    {
+        "id": 3282,
+        "name": "تانجرو",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 977,
+        "ebhar_id": null
+    },
+    {
+        "id": 3283,
+        "name": "قراداغ",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 978,
+        "ebhar_id": null
+    },
+    {
+        "id": 3284,
+        "name": "سيه سيتان",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 979,
+        "ebhar_id": null
+    },
+    {
+        "id": 3285,
+        "name": "شهرزور",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 980,
+        "ebhar_id": null
+    },
+    {
+        "id": 3286,
+        "name": "حلبجة تازة",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 981,
+        "ebhar_id": null
+    },
+    {
+        "id": 3287,
+        "name": "وارماوا",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 982,
+        "ebhar_id": null
+    },
+    {
+        "id": 3288,
+        "name": "سيد صادق",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 983,
+        "ebhar_id": null
+    },
+    {
+        "id": 3289,
+        "name": "سرجوك",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 984,
+        "ebhar_id": null
+    },
+    {
+        "id": 3290,
+        "name": "حلبجة",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 985,
+        "ebhar_id": null
+    },
+    {
+        "id": 3291,
+        "name": "سيروان",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 986,
+        "ebhar_id": null
+    },
+    {
+        "id": 3292,
+        "name": "خورمال",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 987,
+        "ebhar_id": null
+    },
+    {
+        "id": 3293,
+        "name": "بيارا",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 988,
+        "ebhar_id": null
+    },
+    {
+        "id": 3294,
+        "name": "بنجوين",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 989,
+        "ebhar_id": null
+    },
+    {
+        "id": 3295,
+        "name": "كرمك",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 990,
+        "ebhar_id": null
+    },
+    {
+        "id": 3296,
+        "name": "نالباريز",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 991,
+        "ebhar_id": null
+    },
+    {
+        "id": 3297,
+        "name": "شهرباجير",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 992,
+        "ebhar_id": null
+    },
+    {
+        "id": 3298,
+        "name": "جوارته",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 993,
+        "ebhar_id": null
+    },
+    {
+        "id": 3299,
+        "name": "سيوتيل",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 994,
+        "ebhar_id": null
+    },
+    {
+        "id": 3300,
+        "name": "سيتك",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 995,
+        "ebhar_id": null
+    },
+    {
+        "id": 3301,
+        "name": "زلان",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 996,
+        "ebhar_id": null
+    },
+    {
+        "id": 3302,
+        "name": "كابيلون",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 997,
+        "ebhar_id": null
+    },
+    {
+        "id": 3303,
+        "name": "ماوت",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 998,
+        "ebhar_id": null
+    },
+    {
+        "id": 3304,
+        "name": "بشدر",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 999,
+        "ebhar_id": null
+    },
+    {
+        "id": 3305,
+        "name": "قلعة دزا",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 1000,
+        "ebhar_id": null
+    },
+    {
+        "id": 3306,
+        "name": "هيرو",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 1001,
+        "ebhar_id": null
+    },
+    {
+        "id": 3307,
+        "name": "هلشو",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 1002,
+        "ebhar_id": null
+    },
+    {
+        "id": 3308,
+        "name": "ذاراو",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 1003,
+        "ebhar_id": null
+    },
+    {
+        "id": 3309,
+        "name": "ناوه دشت",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 1004,
+        "ebhar_id": null
+    },
+    {
+        "id": 3310,
+        "name": "عيسوي",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 1005,
+        "ebhar_id": null
+    },
+    {
+        "id": 3311,
+        "name": "رانية",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 1006,
+        "ebhar_id": null
+    },
+    {
+        "id": 3312,
+        "name": "جوار قورنة",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 1007,
+        "ebhar_id": null
+    },
+    {
+        "id": 3313,
+        "name": "حاجي اوا",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 1008,
+        "ebhar_id": null
+    },
+    {
+        "id": 3314,
+        "name": "بيتواتة",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 1009,
+        "ebhar_id": null
+    },
+    {
+        "id": 3315,
+        "name": "سركسبان",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 1010,
+        "ebhar_id": null
+    },
+    {
+        "id": 3316,
+        "name": "دوكان",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 1011,
+        "ebhar_id": null
+    },
+    {
+        "id": 3317,
+        "name": "سورداش",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 1012,
+        "ebhar_id": null
+    },
+    {
+        "id": 3318,
+        "name": "بيرة مكرون",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 1013,
+        "ebhar_id": null
+    },
+    {
+        "id": 3319,
+        "name": "خلكان",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 1014,
+        "ebhar_id": null
+    },
+    {
+        "id": 3320,
+        "name": "خدران",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 1015,
+        "ebhar_id": null
+    },
+    {
+        "id": 3321,
+        "name": "بنكرد",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 1016,
+        "ebhar_id": null
+    },
+    {
+        "id": 3322,
+        "name": "دربندخان",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 1017,
+        "ebhar_id": null
+    },
+    {
+        "id": 3323,
+        "name": "باو خوشين",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 1018,
+        "ebhar_id": null
+    },
+    {
+        "id": 3324,
+        "name": "رزكاري",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 1020,
+        "ebhar_id": null
+    },
+    {
+        "id": 3325,
+        "name": "بيباز",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 1021,
+        "ebhar_id": null
+    },
+    {
+        "id": 3326,
+        "name": "شيخ طويل",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 1022,
+        "ebhar_id": null
+    },
+    {
+        "id": 3327,
+        "name": "كفري",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 1023,
+        "ebhar_id": null
+    },
+    {
+        "id": 3328,
+        "name": "آوة سبي",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 1024,
+        "ebhar_id": null
+    },
+    {
+        "id": 3329,
+        "name": "سر قلعة",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 1025,
+        "ebhar_id": null
+    },
+    {
+        "id": 3330,
+        "name": "نوجول",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 1026,
+        "ebhar_id": null
+    },
+    {
+        "id": 3331,
+        "name": "كوكس",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 1027,
+        "ebhar_id": null
+    },
+    {
+        "id": 3332,
+        "name": "جمجمال",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 1028,
+        "ebhar_id": null
+    },
+    {
+        "id": 3333,
+        "name": "شورش",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 1029,
+        "ebhar_id": null
+    },
+    {
+        "id": 3334,
+        "name": "سنكاو",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 1030,
+        "ebhar_id": null
+    },
+    {
+        "id": 3335,
+        "name": "تكية",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 1031,
+        "ebhar_id": null
+    },
+    {
+        "id": 3336,
+        "name": "اغجلر",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 1032,
+        "ebhar_id": null
+    },
+    {
+        "id": 3337,
+        "name": "قادر كرم",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 1033,
+        "ebhar_id": null
+    },
+    {
+        "id": 3338,
+        "name": "تكية جباري",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 1034,
+        "ebhar_id": null
+    },
+    {
+        "id": 3339,
+        "name": "الجامع الكبير",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 3740,
+        "ebhar_id": null
+    },
+    {
+        "id": 3340,
+        "name": "رابرين",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 3842,
+        "ebhar_id": null
+    },
+    {
+        "id": 3341,
+        "name": "تافكه",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 3843,
+        "ebhar_id": null
+    },
+    {
+        "id": 3342,
+        "name": "ابراهيم باشا",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 3844,
+        "ebhar_id": null
+    },
+    {
+        "id": 3343,
+        "name": "سرجنار",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 3845,
+        "ebhar_id": null
+    },
+    {
+        "id": 3344,
+        "name": "قركة",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 3846,
+        "ebhar_id": null
+    },
+    {
+        "id": 3345,
+        "name": "داروكا",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 3847,
+        "ebhar_id": null
+    },
+    {
+        "id": 3346,
+        "name": "ديه ستي",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 3848,
+        "ebhar_id": null
+    },
+    {
+        "id": 3347,
+        "name": "الرعاية",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 3849,
+        "ebhar_id": null
+    },
+    {
+        "id": 3348,
+        "name": "شهيدان",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 3850,
+        "ebhar_id": null
+    },
+    {
+        "id": 3349,
+        "name": "شارع 60",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 3851,
+        "ebhar_id": null
+    },
+    {
+        "id": 3350,
+        "name": "جسر قالاوة",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4068,
+        "ebhar_id": null
+    },
+    {
+        "id": 3351,
+        "name": "المستشفى التعليمي",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4069,
+        "ebhar_id": null
+    },
+    {
+        "id": 3352,
+        "name": "المطار الدولي",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4070,
+        "ebhar_id": null
+    },
+    {
+        "id": 3353,
+        "name": "فلكة ماما ريشة",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4071,
+        "ebhar_id": null
+    },
+    {
+        "id": 3354,
+        "name": "خابات شيخ لقمان",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4072,
+        "ebhar_id": null
+    },
+    {
+        "id": 3355,
+        "name": "حي المعلمين",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4073,
+        "ebhar_id": null
+    },
+    {
+        "id": 3356,
+        "name": "هوارة تازة",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4074,
+        "ebhar_id": null
+    },
+    {
+        "id": 3357,
+        "name": "شارع كاوة",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4075,
+        "ebhar_id": null
+    },
+    {
+        "id": 3358,
+        "name": "شارع سالم",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4076,
+        "ebhar_id": null
+    },
+    {
+        "id": 3359,
+        "name": "شكركة",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4077,
+        "ebhar_id": null
+    },
+    {
+        "id": 3360,
+        "name": "تو مليك",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4078,
+        "ebhar_id": null
+    },
+    {
+        "id": 3361,
+        "name": "السوق الكبير",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4079,
+        "ebhar_id": null
+    },
+    {
+        "id": 3362,
+        "name": "جبل ازمر",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4080,
+        "ebhar_id": null
+    },
+    {
+        "id": 3363,
+        "name": "ناحية عربت",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4081,
+        "ebhar_id": null
+    },
+    {
+        "id": 3364,
+        "name": "شارع قره توغان",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4082,
+        "ebhar_id": null
+    },
+    {
+        "id": 3365,
+        "name": "كاني كوردة",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4083,
+        "ebhar_id": null
+    },
+    {
+        "id": 3366,
+        "name": "طاسلوجة",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4170,
+        "ebhar_id": null
+    },
+    {
+        "id": 3367,
+        "name": "دار ستاوكه",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4223,
+        "ebhar_id": null
+    },
+    {
+        "id": 3368,
+        "name": "هواري شار",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4224,
+        "ebhar_id": null
+    },
+    {
+        "id": 3369,
+        "name": "السليمانية الجديدة",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4240,
+        "ebhar_id": null
+    },
+    {
+        "id": 3370,
+        "name": "كردي سرجنار",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4271,
+        "ebhar_id": null
+    },
+    {
+        "id": 3371,
+        "name": "ماموستيان",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4273,
+        "ebhar_id": null
+    },
+    {
+        "id": 3372,
+        "name": "كورد ستي 2",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4292,
+        "ebhar_id": null
+    },
+    {
+        "id": 3373,
+        "name": "اشتي",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4297,
+        "ebhar_id": null
+    },
+    {
+        "id": 3374,
+        "name": "حي سردار اوا",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4493,
+        "ebhar_id": null
+    },
+    {
+        "id": 3375,
+        "name": "اللاي",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4495,
+        "ebhar_id": null
+    },
+    {
+        "id": 3376,
+        "name": "بختياري",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4500,
+        "ebhar_id": null
+    },
+    {
+        "id": 3377,
+        "name": "كورسات",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4539,
+        "ebhar_id": null
+    },
+    {
+        "id": 3378,
+        "name": "كاني سكان",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4543,
+        "ebhar_id": null
+    },
+    {
+        "id": 3379,
+        "name": "ازادي",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4553,
+        "ebhar_id": null
+    },
+    {
+        "id": 3380,
+        "name": "جوار باخ ",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4583,
+        "ebhar_id": null
+    },
+    {
+        "id": 3381,
+        "name": "كنه كوة",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4669,
+        "ebhar_id": null
+    },
+    {
+        "id": 3382,
+        "name": "قركه شاري سبي",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4688,
+        "ebhar_id": null
+    },
+    {
+        "id": 3383,
+        "name": "قوله ريسي",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4714,
+        "ebhar_id": null
+    },
+    {
+        "id": 3384,
+        "name": "ابراهيم احمد",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4721,
+        "ebhar_id": null
+    },
+    {
+        "id": 3385,
+        "name": "كاري زوشك",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4733,
+        "ebhar_id": null
+    },
+    {
+        "id": 3386,
+        "name": "اوباره",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4739,
+        "ebhar_id": null
+    },
+    {
+        "id": 3387,
+        "name": "اصحابي سبي",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4769,
+        "ebhar_id": null
+    },
+    {
+        "id": 3388,
+        "name": "سركاريز",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4771,
+        "ebhar_id": null
+    },
+    {
+        "id": 3389,
+        "name": "كويجه",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4779,
+        "ebhar_id": null
+    },
+    {
+        "id": 3390,
+        "name": "باشا ستي",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4789,
+        "ebhar_id": null
+    },
+    {
+        "id": 3391,
+        "name": "جوار جرا",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4791,
+        "ebhar_id": null
+    },
+    {
+        "id": 3392,
+        "name": "شيخ محي الدين",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4799,
+        "ebhar_id": null
+    },
+    {
+        "id": 3393,
+        "name": "فلكة دستكه",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4810,
+        "ebhar_id": null
+    },
+    {
+        "id": 3394,
+        "name": "قيوان ستي",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4843,
+        "ebhar_id": null
+    },
+    {
+        "id": 3395,
+        "name": "شارع القناة",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4873,
+        "ebhar_id": null
+    },
+    {
+        "id": 3396,
+        "name": "كوباني نوزاد",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4880,
+        "ebhar_id": null
+    },
+    {
+        "id": 3397,
+        "name": "كان الشيطان",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4888,
+        "ebhar_id": null
+    },
+    {
+        "id": 3398,
+        "name": "برانان ",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4894,
+        "ebhar_id": null
+    },
+    {
+        "id": 3399,
+        "name": "شارواني",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4904,
+        "ebhar_id": null
+    },
+    {
+        "id": 3400,
+        "name": "كاني سبيكه",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4906,
+        "ebhar_id": null
+    },
+    {
+        "id": 3401,
+        "name": "ولوبة",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4909,
+        "ebhar_id": null
+    },
+    {
+        "id": 3402,
+        "name": "كولي شار",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4910,
+        "ebhar_id": null
+    },
+    {
+        "id": 3403,
+        "name": "المنطقة الصناعية",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4915,
+        "ebhar_id": null
+    },
+    {
+        "id": 3404,
+        "name": "سيتوان",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4930,
+        "ebhar_id": null
+    },
+    {
+        "id": 3405,
+        "name": "باينجان",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4936,
+        "ebhar_id": null
+    },
+    {
+        "id": 3406,
+        "name": "سه روه رى",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4937,
+        "ebhar_id": null
+    },
+    {
+        "id": 3407,
+        "name": "فرمان باران ",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4945,
+        "ebhar_id": null
+    },
+    {
+        "id": 3408,
+        "name": "كرده براوكه",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4950,
+        "ebhar_id": null
+    },
+    {
+        "id": 3409,
+        "name": "الاسكان",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4953,
+        "ebhar_id": null
+    },
+    {
+        "id": 3410,
+        "name": "جوارباخ",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4962,
+        "ebhar_id": null
+    },
+    {
+        "id": 3411,
+        "name": "مجيد بيك",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4963,
+        "ebhar_id": null
+    },
+    {
+        "id": 3412,
+        "name": "صابون بران",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4964,
+        "ebhar_id": null
+    },
+    {
+        "id": 3413,
+        "name": "طريق كركوك",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4966,
+        "ebhar_id": null
+    },
+    {
+        "id": 3414,
+        "name": "كاريزه وشك",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4968,
+        "ebhar_id": null
+    },
+    {
+        "id": 3415,
+        "name": "اندزيران",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4977,
+        "ebhar_id": null
+    },
+    {
+        "id": 3416,
+        "name": "شارع الاورزدي",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4985,
+        "ebhar_id": null
+    },
+    {
+        "id": 3417,
+        "name": "زركته",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4989,
+        "ebhar_id": null
+    },
+    {
+        "id": 3418,
+        "name": "قرنجيل",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 4998,
+        "ebhar_id": null
+    },
+    {
+        "id": 3419,
+        "name": "علي ناجي",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 5009,
+        "ebhar_id": null
+    },
+    {
+        "id": 3420,
+        "name": "شارع كوران",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 5014,
+        "ebhar_id": null
+    },
+    {
+        "id": 3421,
+        "name": "به رزاييه كاني",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 5020,
+        "ebhar_id": null
+    },
+    {
+        "id": 3422,
+        "name": "زيرينوك",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 5026,
+        "ebhar_id": null
+    },
+    {
+        "id": 3423,
+        "name": "هواري برزه ",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 5030,
+        "ebhar_id": null
+    },
+    {
+        "id": 3424,
+        "name": "سروري",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 5033,
+        "ebhar_id": null
+    },
+    {
+        "id": 3425,
+        "name": "شقق نوروز",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 5044,
+        "ebhar_id": null
+    },
+    {
+        "id": 3426,
+        "name": "عوال",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 5051,
+        "ebhar_id": null
+    },
+    {
+        "id": 3427,
+        "name": "شيخ عباس",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 5053,
+        "ebhar_id": null
+    },
+    {
+        "id": 3428,
+        "name": "مجمع كولي شار",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 5058,
+        "ebhar_id": null
+    },
+    {
+        "id": 3429,
+        "name": "كانيبه",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 5079,
+        "ebhar_id": null
+    },
+    {
+        "id": 3430,
+        "name": "كورد ستي 1",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 5086,
+        "ebhar_id": null
+    },
+    {
+        "id": 3431,
+        "name": "كاني كومه",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 5095,
+        "ebhar_id": null
+    },
+    {
+        "id": 3432,
+        "name": "ميركبان",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 5096,
+        "ebhar_id": null
+    },
+    {
+        "id": 3433,
+        "name": "كنده سوره",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 5097,
+        "ebhar_id": null
+    },
+    {
+        "id": 3434,
+        "name": "كلار",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 5101,
+        "ebhar_id": null
+    },
+    {
+        "id": 3435,
+        "name": "كلار الصمود",
+        "state_id": 15,
+        "is_prime_supported": false,
+        "prime_id": 5102,
+        "ebhar_id": null
+    }
+]
