@@ -2,7 +2,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 
 const root = path.join(__dirname, '..');
-const dataDirectory = path.join(root, 'cites_distracts');
+const dataDirectory = path.join(root, 'iraqi-cities-districts-data');
 const requiredCityFields = ['id', 'name', 'key', 'country_id', 'ebhar_id', 'alwaseet_id'];
 const requiredDistrictFields = [
   'id',

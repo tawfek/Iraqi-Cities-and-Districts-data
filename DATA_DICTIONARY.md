@@ -1,6 +1,6 @@
 # Data Dictionary
 
-## `cites_distracts/cities.json`
+## `iraqi-cities-districts-data/cities.json`
 
 An array of city/state records.
 
