@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 
 
-DATA_DIRECTORY = Path(__file__).parents[2] / "iraqi-cities-districts-data"
+DATA_DIRECTORY = Path(__file__).parents[2] / "data"
 
 
 def load_json(filename):

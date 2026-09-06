@@ -7,7 +7,7 @@ lookups, and other applications that need stable city and district identifiers.
 ## What is included
 
 ```text
-iraqi-cities-districts-data/
+data/
   cities.json       # Registry of 18 Iraqi cities
   1-NJF.json        # Districts for Najaf
   2-KRB.json        # Districts for Karbala
@@ -35,8 +35,8 @@ node examples/javascript/read.js
 Use the data in an application:
 
 ```js
-const cities = require('./iraqi-cities-districts-data/cities.json');
-const najafDistricts = require('./iraqi-cities-districts-data/1-NJF.json');
+const cities = require('./data/cities.json');
+const najafDistricts = require('./data/1-NJF.json');
 
 const najaf = cities.find((city) => city.key === 'NJF');
 console.log(najaf.name, najafDistricts.length);
@@ -54,7 +54,7 @@ python examples/python/read.py
 import json
 from pathlib import Path
 
-root = Path("iraqi-cities-districts-data")
+root = Path("data")
 cities = json.loads((root / "cities.json").read_text(encoding="utf-8"))
 najaf = next(city for city in cities if city["key"] == "NJF")
 districts = json.loads((root / "1-NJF.json").read_text(encoding="utf-8"))
