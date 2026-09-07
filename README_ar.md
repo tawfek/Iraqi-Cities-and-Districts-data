@@ -50,20 +50,6 @@ ADM1. تتضمن الخصائص `shapeName` و`shapeISO` و`shapeID` و`shapeGro
 يحتوي ملف GeoJSON على الهندسة الجغرافية فقط. لا تحتوي سجلات المدن أو الأقضية
 على إحداثيات خطوط الطول والعرض.
 
-## GitHub Pages
-
-يتضمن المستودع الملف `.github/workflows/pages.yml` الذي ينشر الموقع الثابت
-تلقائياً عند دفع التغييرات إلى `main`. من إعدادات مستودع GitHub، افتح
-**Settings > Pages** واختر **GitHub Actions** كمصدر للنشر. سيكون الرابط:
-
-```text
-https://<owner>.github.io/<repository>/
-```
-
-لا يحتاج الموقع إلى خادم أو أمر بناء. تستخدم الخريطة وملفات JSON وGeoJSON
-وCSS وJavaScript وروابط التوثيق مسارات نسبية، ولذلك تعمل من المسار الفرعي
-لمشروع GitHub Pages.
-
 ## البدء السريع
 
 ### JavaScript / Node.js
