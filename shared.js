@@ -66,6 +66,14 @@
             en: 'Made with <svg class="footer-heart" aria-hidden="true" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0 7.78Z"></path></svg> by',
             ku: 'بە خۆشەویستی دروستکراوە <svg class="footer-heart" aria-hidden="true" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0 7.78Z"></path></svg>'
         },
+        fileReadme: { ar: 'نظرة عامة، التشغيل، الترخيص، والملاحظات', en: 'Overview, setup, license, and notes', ku: 'پوختە، دامەزراندن، مۆڵەت و تێبینییەکان' },
+        fileReadmeAr: { ar: 'نسخة README باللغة العربية', en: 'Arabic README translation', ku: 'وەرگێڕانی README بە عەرەبی' },
+        fileReadmeKu: { ar: 'نسخة README بالكوردية السورانية', en: 'Sorani Kurdish README translation', ku: 'وەشانی README بە کوردیی سۆرانی' },
+        fileDictionaryAr: { ar: 'قاموس البيانات بالعربية', en: 'Arabic data dictionary', ku: 'فەرهەنگی داتا بە عەرەبی' },
+        fileDictionaryKu: { ar: 'قاموس البيانات بالكردية', en: 'Sorani Kurdish data dictionary', ku: 'فەرهەنگی داتا بە کوردیی سۆرانی' },
+        fileContributing: { ar: 'قواعد المساهمة باللغة الإنجليزية', en: 'English contribution guidelines', ku: 'ڕێنمایی بەشداری بە ئینگلیزی' },
+        fileContributingAr: { ar: 'قواعد المساهمة بالعربية', en: 'Arabic contribution guidelines', ku: 'ڕێنمایی بەشداری بە عەرەبی' },
+        fileContributingKu: { ar: 'قواعد المساهمة بالكردية', en: 'Sorani Kurdish contribution guidelines', ku: 'ڕێنمایی بەشداری بە کوردیی سۆرانی' },
         relationshipsTitle: { ar: 'قواعد العلاقة بين الملفات', en: 'Relationships between files', ku: 'یاساکانی پەیوەندی نێوان فایلەکان' },
         relationshipStateId: { ar: 'قيمة <code class="text-emerald-300">state_id</code> في كل قضاء تساوي <code class="text-emerald-300">id</code> للمحافظة.', en: 'Each district’s <code class="text-emerald-300">state_id</code> equals the governorate’s <code class="text-emerald-300">id</code>.', ku: 'بڕی <code class="text-emerald-300">state_id</code> لە هەر قەزایەکدا یەکسانە بە <code class="text-emerald-300">id</code> ـی پارێزگاکە.' },
         relationshipFilename: { ar: 'بادئة وامتداد اسم ملف المحافظة يطابقان <code class="text-emerald-300">id</code> و<code class="text-emerald-300">key</code>.', en: 'The governorate filename prefix and suffix match its <code class="text-emerald-300">id</code> and <code class="text-emerald-300">key</code>.', ku: 'پێشگر و کۆتایی ناوی فایلی پارێزگا یەکسانن بە <code class="text-emerald-300">id</code> و <code class="text-emerald-300">key</code> ـەکەی.' },
@@ -197,6 +205,47 @@
             target.setAttribute('tabindex', '-1');
             target.focus({ preventScroll: true });
         });
+    }
+
+    function initNavigationSpy() {
+        const links = [...document.querySelectorAll('.top-navigation a[href^="#"]')];
+        const sections = links.map(link => document.querySelector(link.getAttribute('href'))).filter(Boolean);
+        if (!links.length || !sections.length) return;
+
+        const setActive = sectionId => {
+            links.forEach(link => {
+                const isActive = link.getAttribute('href') === `#${sectionId}`;
+                link.classList.toggle('is-active', isActive);
+                if (isActive) link.setAttribute('aria-current', 'page');
+                else link.removeAttribute('aria-current');
+            });
+        };
+
+        let ticking = false;
+        const updateActiveSection = () => {
+            const toolbar = document.querySelector('.top-toolbar');
+            const activationLine = (toolbar?.getBoundingClientRect().bottom || 0) + 24;
+            let activeSection = sections[0];
+
+            sections.forEach(section => {
+                if (section.getBoundingClientRect().top <= activationLine) activeSection = section;
+            });
+
+            if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 8) {
+                activeSection = sections[sections.length - 1];
+            }
+            setActive(activeSection.id);
+            ticking = false;
+        };
+
+        window.addEventListener('scroll', () => {
+            if (!ticking) {
+                window.requestAnimationFrame(updateActiveSection);
+                ticking = true;
+            }
+        }, { passive: true });
+        window.addEventListener('resize', updateActiveSection);
+        updateActiveSection();
     }
 
     function initTheme() {
@@ -378,7 +427,7 @@
     window.handleCardShowOnMap = cityId => { const city = citiesList.find(item => Number(item.id) === Number(cityId)); const layer = cityLayerMap.get(Number(cityId)); if (city && layer) selectCity(city, layer, true); };
 
     async function init() {
-        initLanguage(); initTheme(); initMap(); bindSearch(); bindCodeEditors(); initSmoothScrolling();
+        initLanguage(); initTheme(); initMap(); bindSearch(); bindCodeEditors(); initSmoothScrolling(); initNavigationSpy();
         try {
             const response = await fetch(`${DATA_BASE_URL}/cities.json`);
             if (!response.ok) throw new Error(`Failed to load cities.json: ${response.status}`);

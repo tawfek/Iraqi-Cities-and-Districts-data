@@ -1,8 +1,9 @@
 # Iraqi Cities and Districts Data
 
-Open JSON reference data for Iraqi cities and their districts (subdistricts).
-The dataset is designed for address forms, delivery integrations, geographic
-lookups, and other applications that need stable city and district identifiers.
+Open JSON reference data for Iraqi governorates and their districts
+(subdistricts). The dataset is designed for address forms, delivery
+integrations, geographic lookups, and other applications that need stable
+city and district identifiers.
 
 ## What is included
 
@@ -13,20 +14,40 @@ data/
   2-KRB.json        # Districts for Karbala
   ...
    18-MOS.json       # Districts for Mosul
+  geoBoundaries-IRQ-ADM1_simplified.geojson  # Governorate boundaries
+examples/
+  data/najaf-sample.json  # Small fixture
+  javascript/read.js      # Node.js example
+  python/read.py          # Python example
+scripts/
+  validate.js             # Dependency-free data validator
 shared.css           # Shared map UI, theme, and component styles
 shared.js            # Shared map, data loading, search, and theme logic
 ```
 
-  The single `index.html` page supports Arabic, English, and Sorani Kurdish
-  through the language switcher. Additional languages can be added to the
-  language registry in `shared.js` without creating another HTML page.
+The single `index.html` page is an interactive browser for the data. It
+includes a Leaflet map, city search, collapsible city cards, dark/light mode,
+and Arabic, English, and Sorani Kurdish language switching. Additional
+languages can be added to the language registry in `shared.js` without
+creating another HTML page.
 
 Each city file is a JSON array. `cities.json` is the registry that explains
-which city a file belongs to. The numeric prefix and three-letter suffix in a
-filename match the city's `id` and `key`.
+which governorate a file belongs to. The numeric prefix and three-letter
+suffix in a filename match the governorate's `id` and `key`.
 
-The source data currently contains 18 cities and 3,933 district records. Names
-are preserved in Arabic as supplied by the dataset.
+The source data currently contains 18 governorates and 3,933 district records.
+Names are preserved in Arabic as supplied by the dataset.
+
+## Geographic boundaries
+
+`data/geoBoundaries-IRQ-ADM1_simplified.geojson` is a GeoJSON
+`FeatureCollection` containing simplified ADM1 governorate polygons. Its
+features use properties such as `shapeName`, `shapeISO`, `shapeID`,
+`shapeGroup`, and `shapeType`. The interactive page matches `shapeISO` values
+such as `IQ-NA` and `IQ-KA` to `cities.json.iso_code`.
+
+The GeoJSON file provides boundary geometry only. City and district JSON
+records do not contain latitude/longitude coordinates.
 
 ## Quick start
 
@@ -69,8 +90,10 @@ print(najaf["name"], len(districts))
 
 ## Data model
 
-See [DATA_DICTIONARY.md](DATA_DICTIONARY.md) for field definitions, file
-relationships, and identifier guidance.
+See [DATA_DICTIONARY.md](DATA_DICTIONARY.md) for field definitions, GeoJSON
+properties, file relationships, and identifier guidance. Translated references
+are available in [DATA_DICTIONARY_ar.md](DATA_DICTIONARY_ar.md) and
+[DATA_DICTIONARY_ku.md](DATA_DICTIONARY_ku.md).
 
 Example records are available in [examples/data](examples/data), including a
 small Najaf fixture suitable for tests and documentation.
@@ -106,6 +129,9 @@ node scripts/validate.js
 ## Contributing
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) before changing data or code.
+Arabic and Kurdish versions are available as
+[CONTRIBUTING_ar.md](CONTRIBUTING_ar.md) and
+[CONTRIBUTING_ku.md](CONTRIBUTING_ku.md).
 Changes should preserve valid UTF-8 JSON, the existing field names, and the
 city-to-file relationship. Run `npm run validate` before opening a pull
 request.

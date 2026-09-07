@@ -39,6 +39,8 @@ html.light-mode .theme-icon-moon { display: block; }
 .top-toolbar { position: sticky; top: 0.75rem; z-index: 40; display: flex; align-items: center; justify-content: space-between; width: 100%; min-height: 2.75rem; margin: 0 auto 1rem; padding: 0.55rem 0.7rem; gap: 1rem; border: 1px solid rgba(71, 85, 105, 0.7); border-radius: 0.9rem; background: rgba(15, 23, 42, 0.76); box-shadow: 0 12px 28px rgba(2, 6, 23, 0.2); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); }
 .top-navigation, .top-controls { display: flex; align-items: center; flex-wrap: wrap; gap: 0.5rem; }
 .top-navigation { justify-content: flex-start; }
+.top-navigation a { transition: background-color 160ms ease, border-color 160ms ease, color 160ms ease, box-shadow 160ms ease; }
+.top-navigation a.is-active { color: #f8fafc !important; background: rgba(16, 185, 129, 0.22) !important; border-color: #34d399 !important; box-shadow: 0 0 0 2px rgba(52, 211, 153, 0.12); }
 .top-controls { justify-content: flex-end; }
 @media (max-width: 640px) {
 	.top-toolbar { align-items: stretch; flex-direction: column; gap: 0.65rem; }
@@ -65,6 +67,7 @@ body.light-mode .language-menu button { color: #334155; }
 body.light-mode .language-menu button:hover, body.light-mode .language-menu button:focus { color: #0f172a; background: #e2e8f0; }
 body.light-mode .language-menu button.is-active { color: #047857; }
 body.light-mode .top-toolbar { border-color: rgba(203, 213, 225, 0.9); background: rgba(255, 255, 255, 0.78); box-shadow: 0 12px 28px rgba(100, 116, 139, 0.16); }
+body.light-mode .top-navigation a.is-active { color: #065f46 !important; background: #d1fae5 !important; border-color: #34d399 !important; box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.12); }
 .site-footer { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 0.35rem; margin-top: 3rem; padding: 1.25rem 0 0.5rem; border-top: 1px solid rgba(71, 85, 105, 0.45); color: #94a3b8; font-size: 0.75rem; text-align: center; }
 .site-footer a { color: #6ee7b7; font-weight: 600; text-decoration: none; transition: color 160ms ease; }
 .site-footer a:hover { color: #a7f3d0; text-decoration: underline; }
