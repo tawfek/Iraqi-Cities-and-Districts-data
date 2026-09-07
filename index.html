@@ -130,280 +130,376 @@
 
     </div>
 
-    <script>
-        const USERNAME = 'tawfek';
-        const REPO = 'Iraqi-Cities-and-Districts-data';
-        const BRANCH = 'master';
-        const BASE_RAW_URL = `https://raw.githubusercontent.com/${USERNAME}/${REPO}/refs/heads/${BRANCH}/data`;
+<script>
+    const DATA_BASE_URL = './data';
 
-        // Reliable GeoJSON sources for Iraq administrative boundaries
-        const GEOJSON_PRIMARY = 'https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/b7dd6a55701c76a330500ad9d9240f2b9997c6a8/releaseData/gbOpen/IRQ/ADM1/geoBoundaries-IRQ-ADM1_simplified.geojson';
-        const GEOJSON_SECONDARY = 'https://raw.githubusercontent.com/wjdanalharthi/MENA_GeoJSON/main/MENA%20Countries/Iraq/Iraq_Regions.geojson';
+    let citiesList = [];
+    const districtsMap = new Map();
+    let map, geojsonLayer;
 
-        let citiesList = [];
-        const districtsMap = new Map();
-        let map, geojsonLayer;
+    // Layer lookup by city ID
+    const cityLayerMap = new Map();
 
-        async function init() {
-            initMap();
+    let activeSelectedCity = null;
+    let activeLayer = null;
 
-            try {
-                const response = await fetch(`${BASE_RAW_URL}/cities.json`);
-                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+    async function init() {
+        initMap();
 
-                const rawCities = await response.json();
-                // Ensure ID types are consistently stored as Numbers
-                citiesList = rawCities.map(c => ({ ...c, id: Number(c.id) }));
+        try {
+            const response = await fetch(`${DATA_BASE_URL}/cities.json`);
+            if (!response.ok) throw new Error(`Failed to load cities.json: ${response.status}`);
 
-                await fetchAllDistrictsConcurrently(citiesList);
+            const rawCities = await response.json();
+            citiesList = rawCities.map(c => ({ ...c, id: Number(c.id) }));
 
-                renderCities(citiesList);
-                await loadIraqGeoJSON();
+            await fetchAllDistrictsConcurrently(citiesList);
 
-            } catch (err) {
-                console.error('Initialization error:', err);
-            }
+            renderCities(citiesList);
+            await loadLocalGeoJSON();
+
+        } catch (err) {
+            console.error('Initialization error:', err);
         }
+    }
 
-        /* Initialize Leaflet Dark Map centered on Iraq */
-        function initMap() {
-            map = L.map('map', {
-                center: [33.2232, 43.6793],
-                zoom: 5.5,
-                zoomControl: false,
-                attributionControl: false
-            });
+    function initMap() {
+        map = L.map('map', {
+            center: [33.2232, 43.6793],
+            zoom: 5.5,
+            zoomControl: false,
+            attributionControl: false
+        });
 
-            L.control.zoom({ position: 'topleft' }).addTo(map);
+        L.control.zoom({ position: 'topleft' }).addTo(map);
 
-            document.getElementById('resetViewBtn')?.addEventListener('click', () => {
-                map.setView([33.2232, 43.6793], 5.5);
-                renderCities(citiesList);
-            });
+        map.on('click', (e) => {
+            if (e.originalEvent._stopped) return;
+            resetSelection();
+        });
+
+        document.getElementById('resetViewBtn')?.addEventListener('click', () => {
+            resetSelection();
+        });
+    }
+
+    function resetSelection() {
+        activeSelectedCity = null;
+        if (activeLayer && geojsonLayer) {
+            geojsonLayer.resetStyle(activeLayer);
+            activeLayer = null;
         }
+        map.setView([33.2232, 43.6793], 5.5);
+        
+        document.querySelectorAll('.city-card').forEach(card => {
+            card.classList.remove('ring-2', 'ring-emerald-500', 'border-emerald-500');
+        });
 
-        /* Fetch and load GeoJSON with automatic fallback */
-        async function loadIraqGeoJSON() {
-            let geoData = null;
+        const sidebar = document.getElementById('sidebarContent');
+        if (sidebar) {
+            sidebar.innerHTML = `
+                <div class="text-slate-400 text-sm">اختر محافظة من الخريطة لعرض التفاصيل</div>
+            `;
+        }
+    }
 
-            try {
-                const res = await fetch(GEOJSON_PRIMARY);
-                if (!res.ok) throw new Error(`Primary status: ${res.status}`);
-                geoData = await res.json();
-            } catch (err) {
-                console.warn('Primary GeoJSON failed, trying fallback source...', err);
-                try {
-                    const fallbackRes = await fetch(GEOJSON_SECONDARY);
-                    if (!fallbackRes.ok) throw new Error(`Fallback status: ${fallbackRes.status}`);
-                    geoData = await fallbackRes.json();
-                } catch (fallbackErr) {
-                    console.error('All GeoJSON boundary sources failed:', fallbackErr);
-                    return;
-                }
-            }
+    async function loadLocalGeoJSON() {
+        try {
+            const res = await fetch(`${DATA_BASE_URL}/geoBoundaries-IRQ-ADM1_simplified.geojson`);
+            if (!res.ok) throw new Error(`GeoJSON fetch error status: ${res.status}`);
+
+            const geoData = await res.json();
 
             geojsonLayer = L.geoJSON(geoData, {
                 style: featureStyle,
                 onEachFeature: onEachFeature
             }).addTo(map);
+
+        } catch (err) {
+            console.error('Failed to load local GeoJSON boundary file:', err);
+        }
+    }
+
+    function featureStyle(feature) {
+        return {
+            fillColor: '#0ea5e9',
+            weight: 1.5,
+            opacity: 0.8,
+            color: '#334155',
+            fillOpacity: 0.25
+        };
+    }
+
+    function highlightStyle() {
+        return {
+            fillColor: '#10b981',
+            fillOpacity: 0.55,
+            weight: 2,
+            color: '#34d399'
+        };
+    }
+
+    function onEachFeature(feature, layer) {
+        const matchedCity = findMatchedCity(feature.properties);
+        const rawGeoName = feature.properties.shapeName || feature.properties.name || feature.properties.shapeISO || 'Governorate';
+        const cityName = matchedCity ? matchedCity.name : rawGeoName;
+
+        if (matchedCity) {
+            cityLayerMap.set(Number(matchedCity.id), layer);
         }
 
-        function featureStyle() {
-            return {
-                fillColor: '#0ea5e9',
-                weight: 1.5,
-                opacity: 0.8,
-                color: '#334155',
-                fillOpacity: 0.25
-            };
-        }
+        const districtState = matchedCity ? districtsMap.get(Number(matchedCity.id)) : null;
+        const districtCount = districtState ? districtState.data.length : 0;
 
-        function onEachFeature(feature, layer) {
-            // Evaluate all common geo properties across geoBoundaries & MENA datasets
-            const rawGeoName = feature.properties.shapeName || feature.properties.name || feature.properties.NAME_1 || feature.properties.adm1_en || feature.properties.name_en || '';
-            const matchedCity = findMatchedCity(rawGeoName);
-
-            const cityName = matchedCity ? (matchedCity.name || matchedCity.key) : rawGeoName;
-            const districtCount = matchedCity && districtsMap.get(Number(matchedCity.id))
-                ? districtsMap.get(Number(matchedCity.id)).data.length
-                : 0;
-
-            // Tooltip configuration
-            layer.bindTooltip(`
-          <div class="text-right">
+        const tooltipContent = `
+          <div class="text-right pointer-events-none">
             <div class="font-bold text-sm text-white">${cityName}</div>
-            <div class="text-[11px] text-emerald-400 font-mono-num mt-0.5">${districtCount} أقضية ونواحي</div>
+            <div class="text-[11px] text-emerald-400 font-mono mt-0.5">${districtCount} أقضية ونواحي</div>
           </div>
-        `, { permanent: false, direction: 'top', className: 'custom-tooltip' });
+        `;
 
-            layer.on({
-                mouseover: (e) => {
-                    const l = e.target;
-                    l.setStyle({
-                        fillColor: '#10b981',
-                        fillOpacity: 0.55,
-                        weight: 2,
-                        color: '#34d399'
-                    });
+        // Bind tooltip anchored to the exact geographic center of the feature polygon
+        layer.bindTooltip(tooltipContent, {
+            permanent: false,
+            direction: 'center',
+            sticky: false,
+            className: 'custom-tooltip shadow-lg border border-slate-700/80 bg-slate-900/90 backdrop-blur-md px-3 py-2 rounded-xl'
+        });
+
+        layer.on({
+            mouseover: (e) => {
+                const l = e.target;
+                
+                // Recalculate center point on hover so placement is pinned precisely
+                if (l.getBounds) {
+                    const center = l.getBounds().getCenter();
+                    l.openTooltip(center);
+                }
+
+                if (!activeSelectedCity) {
+                    l.setStyle(highlightStyle());
                     l.bringToFront();
-
                     updateSidebarDetails(matchedCity, cityName);
-                },
-                mouseout: (e) => {
-                    if (geojsonLayer) {
-                        geojsonLayer.resetStyle(e.target);
-                    }
-                },
-                click: (e) => {
-                    map.fitBounds(e.target.getBounds(), { padding: [25, 25] });
-
-                    // Always sync sidebar and grid cards on click
-                    updateSidebarDetails(matchedCity, cityName);
-
-                    if (matchedCity) {
-                        filterCardsByCity(matchedCity.id);
+                }
+            },
+            mouseout: (e) => {
+                const l = e.target;
+                if (l !== activeLayer) {
+                    geojsonLayer.resetStyle(l);
+                }
+                if (!activeSelectedCity) {
+                    const sidebar = document.getElementById('sidebarContent');
+                    if (sidebar) {
+                        sidebar.innerHTML = `<div class="text-slate-400 text-sm">اختر محافظة من الخريطة لعرض التفاصيل</div>`;
                     }
                 }
-            });
+            },
+            click: (e) => {
+                e.originalEvent._stopped = true;
+                selectCityOnMap(matchedCity, layer, false);
+            }
+        });
+    }
+
+    /* Core Selection Handler */
+    function selectCityOnMap(city, layer, scrollUpToMap = false) {
+        if (!city || !layer) return;
+
+        if (activeLayer && activeLayer !== layer) {
+            geojsonLayer.resetStyle(activeLayer);
         }
 
-        /* Enhanced matcher for Arabic & English governorate variants */
-        function findMatchedCity(properties) {
-            if (!properties || !properties.shapeISO) return null;
-            return citiesList.find(c => c.iso_code === properties.shapeISO.toUpperCase());
+        activeSelectedCity = city;
+        activeLayer = layer;
+
+        activeLayer.setStyle(highlightStyle());
+        activeLayer.bringToFront();
+
+        map.fitBounds(activeLayer.getBounds(), { padding: [25, 25] });
+
+        updateSidebarDetails(city, city.name);
+        highlightCardBorderOnly(city.id);
+
+        if (scrollUpToMap) {
+            document.getElementById('map')?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+    }
+
+    function highlightCardBorderOnly(cityId) {
+        document.querySelectorAll('.city-card').forEach(card => {
+            card.classList.remove('ring-2', 'ring-emerald-500', 'border-emerald-500');
+        });
+
+        const targetCard = document.getElementById(`city-card-${cityId}`);
+        if (targetCard) {
+            targetCard.classList.add('ring-2', 'ring-emerald-500', 'border-emerald-500');
+        }
+    }
+
+    function findMatchedCity(properties) {
+        if (!properties) return null;
+
+        const shapeISO = (properties.shapeISO || properties.ISO_1 || '').toUpperCase().trim();
+
+        if (shapeISO) {
+            const match = citiesList.find(c => c.iso_code === shapeISO);
+            if (match) return match;
         }
 
-        function updateSidebarDetails(city, fallbackName) {
-            const sidebar = document.getElementById('sidebarContent');
-            if (!sidebar) return;
+        const shapeName = (properties.shapeName || properties.name || '').toLowerCase().trim();
+        return citiesList.find(c => {
+            const key = (c.key || '').toLowerCase();
+            const name = (c.name || '').toLowerCase();
+            return shapeName.includes(key) || shapeName.includes(name);
+        });
+    }
 
-            if (!city) {
-                sidebar.innerHTML = `
+    function getDistrictName(d) {
+        if (typeof d === 'string') return d;
+        if (!d) return '';
+        return d.name || d.ar_name || d.name_ar || '';
+    }
+
+    function updateSidebarDetails(city, fallbackName) {
+        const sidebar = document.getElementById('sidebarContent');
+        if (!sidebar) return;
+
+        if (!city) {
+            sidebar.innerHTML = `
                 <h3 class="text-lg font-bold text-white mb-1">${fallbackName}</h3>
                 <p class="text-xs text-slate-400">لا تتوفر تفاصيل إضافية لهذه المنطقة</p>
             `;
-                return;
-            }
+            return;
+        }
 
-            const districtState = districtsMap.get(Number(city.id)) || { data: [] };
-            const districts = districtState.data;
+        const districtState = districtsMap.get(Number(city.id)) || { data: [] };
+        const districts = districtState.data;
 
-            sidebar.innerHTML = `
+        sidebar.innerHTML = `
           <div class="mb-3">
-            <h3 class="text-xl font-bold text-emerald-400 mb-1">${city.name || city.ar_name}</h3>
-            <span class="text-xs text-slate-500 font-mono uppercase">${city.key} • #${city.id}</span>
+            <h3 class="text-xl font-bold text-emerald-400 mb-1">${city.name}</h3>
+            <span class="text-xs text-slate-500 font-mono uppercase">${city.key} • ISO: ${city.iso_code || 'N/A'}</span>
           </div>
 
           <div class="mt-4">
             <div class="text-xs font-semibold text-slate-300 mb-2">الأقضية والنواحي (${districts.length}):</div>
             <div class="flex flex-wrap gap-1.5 max-h-56 overflow-y-auto pr-1">
-              ${districts.length > 0
-                    ? districts.map(d => {
-                        const dName = typeof d === 'string' ? d : (d.name || d.ar_name || d.name_ar);
-                        return `<span class="text-xs bg-slate-800 text-slate-200 border border-slate-700/80 px-2.5 py-1 rounded-lg">${dName}</span>`;
-                    }).join('')
-                    : '<span class="text-xs text-slate-500">لا توجد بيانات متاحة</span>'
-                }
+              ${districts.length > 0 
+                ? districts.map(d => `<span class="text-xs bg-slate-800 text-slate-200 border border-slate-700/80 px-2.5 py-1 rounded-lg">${getDistrictName(d)}</span>`).join('')
+                : '<span class="text-xs text-slate-500">لا توجد بيانات متاحة</span>'
+              }
             </div>
           </div>
         `;
-        }
+    }
 
-        async function fetchAllDistrictsConcurrently(cities) {
-            const fetchPromises = cities.map(async (city) => {
-                const cityId = Number(city.id);
-                const url = `${BASE_RAW_URL}/${city.id}-${city.key}.json`;
-                try {
-                    const res = await fetch(url);
-                    if (!res.ok) throw new Error();
-                    const data = await res.json();
+    async function fetchAllDistrictsConcurrently(cities) {
+        const fetchPromises = cities.map(async (city) => {
+            const cityId = Number(city.id);
+            const url = `${DATA_BASE_URL}/${city.id}-${city.key}.json`;
+            try {
+                const res = await fetch(url);
+                if (!res.ok) throw new Error();
+                const data = await res.json();
 
-                    // Safely extract array regardless of schema structure
-                    const districtList = Array.isArray(data) ? data : (data.districts || data.data || []);
-                    districtsMap.set(cityId, { status: 'success', data: districtList });
-                } catch (e) {
-                    districtsMap.set(cityId, { status: 'error', data: [] });
-                }
-            });
-            await Promise.all(fetchPromises);
-        }
+                const districtList = Array.isArray(data) ? data : (data.districts || data.data || []);
+                districtsMap.set(cityId, { status: 'success', data: districtList });
+            } catch (e) {
+                districtsMap.set(cityId, { status: 'error', data: [] });
+            }
+        });
+        await Promise.all(fetchPromises);
+    }
 
-        function filterCardsByCity(cityId) {
-            const filtered = citiesList.filter(c => Number(c.id) === Number(cityId));
-            renderCities(filtered);
-        }
+    function renderCities(items) {
+        const grid = document.getElementById('citiesGrid');
+        if (!grid) return;
+        grid.innerHTML = '';
 
-        function renderCities(items) {
-            const grid = document.getElementById('citiesGrid');
-            if (!grid) return;
-            grid.innerHTML = '';
-
-            if (items.length === 0) {
-                grid.innerHTML = `
+        if (items.length === 0) {
+            grid.innerHTML = `
                 <div class="col-span-full text-center py-12 bg-slate-900/40 border border-slate-800/80 rounded-2xl">
                   <p class="text-slate-400 font-medium">لا توجد نتائج مطابقة للبحث</p>
                 </div>
             `;
-                return;
-            }
-
-            items.forEach(city => {
-                const districtState = districtsMap.get(Number(city.id)) || { data: [] };
-                const districts = districtState.data;
-
-                const card = document.createElement('div');
-                card.className = 'bg-slate-900/70 border border-slate-800/80 hover:border-slate-700/80 rounded-2xl p-5 transition backdrop-blur-sm';
-
-                card.innerHTML = `
-                <div class="flex items-start justify-between gap-2 mb-3">
-                  <div>
-                    <h2 class="text-xl font-bold text-white">${city.name || city.ar_name}</h2>
-                    <span class="text-xs text-slate-500 font-mono capitalize">${city.key}</span>
-                  </div>
-                  <span class="text-xs font-mono bg-emerald-950/60 text-emerald-400 border border-emerald-800/40 px-2 py-0.5 rounded-md">
-                    ${districts.length} أقضية
-                  </span>
-                </div>
-
-                <div class="mt-4 pt-3 border-t border-slate-800/80">
-                  <div class="flex flex-wrap gap-1.5 max-h-40 overflow-y-auto pr-1">
-                    ${districts.length > 0
-                        ? districts.map(d => {
-                            const dName = typeof d === 'string' ? d : (d.name || d.ar_name || d.name_ar);
-                            return `<span class="text-xs bg-slate-800/90 text-slate-300 border border-slate-700/60 px-2 py-0.5 rounded-md">${dName}</span>`;
-                        }).join('')
-                        : '<span class="text-xs text-slate-500">لا توجد أقضية</span>'
-                    }
-                  </div>
-                </div>
-            `;
-                grid.appendChild(card);
-            });
+            return;
         }
 
-        document.getElementById('searchInput')?.addEventListener('input', (e) => {
-            const query = e.target.value.toLowerCase().trim();
-            if (!query) {
-                renderCities(citiesList);
-                return;
-            }
-            const filtered = citiesList.filter(city => {
-                const name = (city.name || city.id || city.key || '').toLowerCase();
-                const key = (city.key || '').toLowerCase();
+        items.forEach(city => {
+            const districtState = districtsMap.get(Number(city.id)) || { data: [] };
+            const districts = districtState.data;
 
-                const districtState = districtsMap.get(Number(city.id));
-                const matchesDistrict = districtState && districtState.data.some(d => {
-                    const dName = (typeof d === 'string' ? d : (d.name || d.ar_name || d.name_ar || '')).toLowerCase();
-                    return dName.includes(query);
-                });
+            const card = document.createElement('div');
+            card.id = `city-card-${city.id}`;
+            card.className = 'city-card bg-slate-900/70 border border-slate-800/80 hover:border-slate-700/80 rounded-2xl p-5 transition-all duration-300 backdrop-blur-sm flex flex-col justify-between';
 
-                return name.includes(query) || key.includes(query) || matchesDistrict;
-            });
-            renderCities(filtered);
+            card.innerHTML = `
+                <div>
+                  <div class="flex items-start justify-between gap-2 mb-3">
+                    <div>
+                      <h2 class="text-xl font-bold text-white">${city.name}</h2>
+                      <span class="text-xs text-slate-500 font-mono capitalize">${city.key} • ${city.iso_code || ''}</span>
+                    </div>
+                    <span class="text-xs font-mono bg-emerald-950/60 text-emerald-400 border border-emerald-800/40 px-2 py-0.5 rounded-md">
+                      ${districts.length} أقضية
+                    </span>
+                  </div>
+
+                  <div class="mt-4 pt-3 border-t border-slate-800/80">
+                    <div class="flex flex-wrap gap-1.5 max-h-40 overflow-y-auto pr-1">
+                      ${districts.length > 0 
+                        ? districts.map(d => `<span class="text-xs bg-slate-800/90 text-slate-300 border border-slate-700/60 px-2 py-0.5 rounded-md">${getDistrictName(d)}</span>`).join('')
+                        : '<span class="text-xs text-slate-500">لا توجد أقضية</span>'
+                      }
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mt-5 pt-3 border-t border-slate-800/50 flex justify-end">
+                  <button 
+                    onclick="handleCardShowOnMap(${city.id})"
+                    class="text-xs font-medium text-emerald-400 hover:text-emerald-300 bg-emerald-950/40 hover:bg-emerald-900/50 border border-emerald-800/50 px-3 py-1.5 rounded-xl transition flex items-center gap-1.5 cursor-pointer">
+                    <span>عرض على الخريطة</span>
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                  </button>
+                </div>
+            `;
+            grid.appendChild(card);
         });
+    }
 
-        init();
-    </script>
+    window.handleCardShowOnMap = function(cityId) {
+        const city = citiesList.find(c => Number(c.id) === Number(cityId));
+        const layer = cityLayerMap.get(Number(cityId));
+
+        if (city && layer) {
+            selectCityOnMap(city, layer, true);
+        }
+    };
+
+    document.getElementById('searchInput')?.addEventListener('input', (e) => {
+        const query = e.target.value.toLowerCase().trim();
+        if (!query) {
+            renderCities(citiesList);
+            return;
+        }
+        const filtered = citiesList.filter(city => {
+            const name = (city.name || '').toLowerCase();
+            const key = (city.key || '').toLowerCase();
+
+            const districtState = districtsMap.get(Number(city.id));
+            const matchesDistrict = districtState && districtState.data.some(d => {
+                const dName = getDistrictName(d).toLowerCase();
+                return dName.includes(query);
+            });
+
+            return name.includes(query) || key.includes(query) || matchesDistrict;
+        });
+        renderCities(filtered);
+    });
+
+    init();
+</script>
 </body>
 
 </html>
