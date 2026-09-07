@@ -7,6 +7,10 @@ Open JSON reference data for Iraqi governorates and their districts
 integrations, geographic lookups, and other applications that need stable
 city and district identifiers.
 
+![Project preview](image.png)
+
+[Live preview](https://tawfek.github.io/Iraqi-Cities-and-Districts-data/)
+
 ## What is included
 
 ```text

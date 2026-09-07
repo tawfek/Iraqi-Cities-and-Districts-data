@@ -6,6 +6,10 @@
 البيانات لنماذج العناوين، وتكاملات التوصيل، والبحث الجغرافي، والتطبيقات التي
 تحتاج إلى معرفات مستقرة للمدن والأقضية.
 
+![Project preview](image.png)
+
+[Live preview](https://tawfek.github.io/Iraqi-Cities-and-Districts-data/)
+
 ## محتويات المستودع
 
 ```text

@@ -6,6 +6,10 @@
 بۆ فۆڕمی ناونیشان، یەکخستنەکانی گەیاندن، گەڕانی جوگرافی و ئەو بەرنامانەیە
 کە پێویستیان بە ناسنامەی جێگیری شار و قەزا هەیە.
 
+![Project preview](image.png)
+
+[Live preview](https://tawfek.github.io/Iraqi-Cities-and-Districts-data/)
+
 ## ناوەڕۆکی پڕۆژە
 
 ```text
