@@ -1,146 +1,164 @@
 [
-    {
-        "id": 1,
-        "name": "النجف",
-        "key": "NJF",
-        "country_id": 1,
-        "ebhar_id": "6c26e72a-8a2e-4330-a430-8acd4e4994f6",
-        "alwaseet_id": 12
-    },
-    {
-        "id": 2,
-        "name": "كربلاء",
-        "key": "KRB",
-        "country_id": 1,
-        "ebhar_id": "03848957-097d-4039-b963-85471c4b6028",
-        "alwaseet_id": 2
-    },
-    {
-        "id": 3,
-        "name": "بابل الحلة",
-        "key": "BBL",
-        "country_id": 1,
-        "ebhar_id": "a3a64ceb-45d0-4714-bb68-247f4cc2aa75",
-        "alwaseet_id": 4
-    },
-    {
-        "id": 4,
-        "name": "الديوانية",
-        "key": "DWN",
-        "country_id": 1,
-        "ebhar_id": "757545f9-efdc-43ca-9fcb-5916b788ef8b",
-        "alwaseet_id": 14
-    },
-    {
-        "id": 5,
-        "name": "بغداد",
-        "key": "BGD",
-        "country_id": 1,
-        "ebhar_id": "98b177ed-4b3e-481b-889a-a3d39c855f05",
-        "alwaseet_id": 1
-    },
-    {
-        "id": 6,
-        "name": "ديالى",
-        "key": "DYL",
-        "country_id": 1,
-        "ebhar_id": "502d96ef-d44a-491b-b09b-36851620e53f",
-        "alwaseet_id": 7
-    },
-    {
-        "id": 7,
-        "name": "البصرة",
-        "key": "BAS",
-        "country_id": 1,
-        "ebhar_id": "04ea0ec4-0d6b-4088-a269-40c1e49023d2",
-        "alwaseet_id": 5
-    },
-    {
-        "id": 8,
-        "name": "العمارة ميسان",
-        "key": "AMA",
-        "country_id": 1,
-        "ebhar_id": "616f9fa8-089e-47ca-b1ed-d0130f3d1089",
-        "alwaseet_id": 10
-    },
-    {
-        "id": 9,
-        "name": "صلاح الدين",
-        "key": "SAH",
-        "country_id": 1,
-        "ebhar_id": "ff138860-9c79-449f-a6d6-4a0f9c071626",
-        "alwaseet_id": 15
-    },
-    {
-        "id": 10,
-        "name": "الأنبار/رمادي",
-        "key": "ANB",
-        "country_id": 1,
-        "ebhar_id": "9876499d-23fa-41b3-944e-5df0910728f4",
-        "alwaseet_id": 3
-    },
-    {
-        "id": 11,
-        "name": "الناصرية ذي قار",
-        "key": "NAS",
-        "country_id": 1,
-        "ebhar_id": "ba177eca-b866-4d88-800a-0a5827d89219",
-        "alwaseet_id": 17
-    },
-    {
-        "id": 12,
-        "name": "الكوت واسط",
-        "key": "KOT",
-        "country_id": 1,
-        "ebhar_id": "75138fd0-d711-4315-a58f-4be4115d7c29",
-        "alwaseet_id": 18
-    },
-    {
-        "id": 13,
-        "name": "السماوة المثنى",
-        "key": "SAM",
-        "country_id": 1,
-        "ebhar_id": "c80fec41-8dd9-4016-95be-0264341fa443",
-        "alwaseet_id": 11
-    },
-    {
-        "id": 14,
-        "name": "كركوك",
-        "key": "KRK",
-        "country_id": 1,
-        "ebhar_id": "69b5cdf4-cb03-4021-832f-cd1122a282c8",
-        "alwaseet_id": 9
-    },
-    {
-        "id": 15,
-        "name": "السليمانيه",
-        "key": "SMH",
-        "country_id": 1,
-        "ebhar_id": "6246646f-d4d3-40f3-9094-3dff6b932c1c",
-        "alwaseet_id": 16
-    },
-    {
-        "id": 16,
-        "name": "اربيل",
-        "key": "ARB",
-        "country_id": 1,
-        "ebhar_id": "2beb239f-555e-49a8-b3b0-ccb634bf8cd9",
-        "alwaseet_id": 8
-    },
-    {
-        "id": 17,
-        "name": "دهوك",
-        "key": "DOH",
-        "country_id": 1,
-        "ebhar_id": "7fddfb21-4227-4bda-8ea9-3c3945d366cc",
-        "alwaseet_id": 6
-    },
-    {
-        "id": 18,
-        "name": "موصل",
-        "key": "MOS",
-        "country_id": 1,
-        "ebhar_id": "671ba3d2-42b0-4f62-a99a-996694828027",
-        "alwaseet_id": 13
-    }
+  {
+    "id": 1,
+    "name": "النجف",
+    "key": "NJF",
+    "iso_code": "IQ-NA",
+    "country_id": 1,
+    "ebhar_id": "6c26e72a-8a2e-4330-a430-8acd4e4994f6",
+    "alwaseet_id": 12
+  },
+  {
+    "id": 2,
+    "name": "كربلاء",
+    "key": "KRB",
+    "iso_code": "IQ-KA",
+    "country_id": 1,
+    "ebhar_id": "03848957-097d-4039-b963-85471c4b6028",
+    "alwaseet_id": 2
+  },
+  {
+    "id": 3,
+    "name": "بابل الحلة",
+    "key": "BBL",
+    "iso_code": "IQ-BB",
+    "country_id": 1,
+    "ebhar_id": "a3a64ceb-45d0-4714-bb68-247f4cc2aa75",
+    "alwaseet_id": 4
+  },
+  {
+    "id": 4,
+    "name": "الديوانية",
+    "key": "DWN",
+    "iso_code": "IQ-QA",
+    "country_id": 1,
+    "ebhar_id": "757545f9-efdc-43ca-9fcb-5916b788ef8b",
+    "alwaseet_id": 14
+  },
+  {
+    "id": 5,
+    "name": "بغداد",
+    "key": "BGD",
+    "iso_code": "IQ-BG",
+    "country_id": 1,
+    "ebhar_id": "98b177ed-4b3e-481b-889a-a3d39c855f05",
+    "alwaseet_id": 1
+  },
+  {
+    "id": 6,
+    "name": "ديالى",
+    "key": "DYL",
+    "iso_code": "IQ-DI",
+    "country_id": 1,
+    "ebhar_id": "502d96ef-d44a-491b-b09b-36851620e53f",
+    "alwaseet_id": 7
+  },
+  {
+    "id": 7,
+    "name": "البصرة",
+    "key": "BAS",
+    "iso_code": "IQ-BA",
+    "country_id": 1,
+    "ebhar_id": "04ea0ec4-0d6b-4088-a269-40c1e49023d2",
+    "alwaseet_id": 5
+  },
+  {
+    "id": 8,
+    "name": "العمارة ميسان",
+    "key": "AMA",
+    "iso_code": "IQ-MA",
+    "country_id": 1,
+    "ebhar_id": "616f9fa8-089e-47ca-b1ed-d0130f3d1089",
+    "alwaseet_id": 10
+  },
+  {
+    "id": 9,
+    "name": "صلاح الدين",
+    "key": "SAH",
+    "iso_code": "IQ-SD",
+    "country_id": 1,
+    "ebhar_id": "ff138860-9c79-449f-a6d6-4a0f9c071626",
+    "alwaseet_id": 15
+  },
+  {
+    "id": 10,
+    "name": "الأنبار/رمادي",
+    "key": "ANB",
+    "iso_code": "IQ-AN",
+    "country_id": 1,
+    "ebhar_id": "9876499d-23fa-41b3-944e-5df0910728f4",
+    "alwaseet_id": 3
+  },
+  {
+    "id": 11,
+    "name": "الناصرية ذي قار",
+    "key": "NAS",
+    "iso_code": "IQ-DQ",
+    "country_id": 1,
+    "ebhar_id": "ba177eca-b866-4d88-800a-0a5827d89219",
+    "alwaseet_id": 17
+  },
+  {
+    "id": 12,
+    "name": "الكوت واسط",
+    "key": "KOT",
+    "iso_code": "IQ-WA",
+    "country_id": 1,
+    "ebhar_id": "75138fd0-d711-4315-a58f-4be4115d7c29",
+    "alwaseet_id": 18
+  },
+  {
+    "id": 13,
+    "name": "السماوة المثنى",
+    "key": "SAM",
+    "iso_code": "IQ-MU",
+    "country_id": 1,
+    "ebhar_id": "c80fec41-8dd9-4016-95be-0264341fa443",
+    "alwaseet_id": 11
+  },
+  {
+    "id": 14,
+    "name": "كركوك",
+    "key": "KRK",
+    "iso_code": "IQ-KI",
+    "country_id": 1,
+    "ebhar_id": "69b5cdf4-cb03-4021-832f-cd1122a282c8",
+    "alwaseet_id": 9
+  },
+  {
+    "id": 15,
+    "name": "السليمانيه",
+    "key": "SMH",
+    "iso_code": "IQ-SU",
+    "country_id": 1,
+    "ebhar_id": "6246646f-d4d3-40f3-9094-3dff6b932c1c",
+    "alwaseet_id": 16
+  },
+  {
+    "id": 16,
+    "name": "اربيل",
+    "key": "ARB",
+    "iso_code": "IQ-AR",
+    "country_id": 1,
+    "ebhar_id": "2beb239f-555e-49a8-b3b0-ccb634bf8cd9",
+    "alwaseet_id": 8
+  },
+  {
+    "id": 17,
+    "name": "دهوك",
+    "key": "DOH",
+    "iso_code": "IQ-DA",
+    "country_id": 1,
+    "ebhar_id": "7fddfb21-4227-4bda-8ea9-3c3945d366cc",
+    "alwaseet_id": 6
+  },
+  {
+    "id": 18,
+    "name": "موصل",
+    "key": "MOS",
+    "iso_code": "IQ-NI",
+    "country_id": 1,
+    "ebhar_id": "671ba3d2-42b0-4f62-a99a-996694828027",
+    "alwaseet_id": 13
+  }
 ]
