@@ -12,8 +12,14 @@ data/
   1-NJF.json        # Districts for Najaf
   2-KRB.json        # Districts for Karbala
   ...
-  18-MOS.json       # Districts for Mosul
+   18-MOS.json       # Districts for Mosul
+shared.css           # Shared map UI, theme, and component styles
+shared.js            # Shared map, data loading, search, and theme logic
 ```
+
+  The single `index.html` page supports Arabic, English, and Sorani Kurdish
+  through the language switcher. Additional languages can be added to the
+  language registry in `shared.js` without creating another HTML page.
 
 Each city file is a JSON array. `cities.json` is the registry that explains
 which city a file belongs to. The numeric prefix and three-letter suffix in a
