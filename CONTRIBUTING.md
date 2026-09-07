@@ -1,5 +1,7 @@
 # Contributing
 
+[English](CONTRIBUTING.md) | [العربية](CONTRIBUTING_ar.md) | [کوردی](CONTRIBUTING_ku.md)
+
 Thanks for helping improve the Iraqi cities and districts dataset.
 
 ## Before you change data

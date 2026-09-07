@@ -1,5 +1,7 @@
 # Data Dictionary
 
+[English](DATA_DICTIONARY.md) | [العربية](DATA_DICTIONARY_ar.md) | [کوردی](DATA_DICTIONARY_ku.md)
+
 ## `data/cities.json`
 
 An array of governorate records.

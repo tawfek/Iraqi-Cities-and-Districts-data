@@ -1,5 +1,7 @@
 # قاموس البيانات
 
+[English](DATA_DICTIONARY.md) | [العربية](DATA_DICTIONARY_ar.md) | [کوردی](DATA_DICTIONARY_ku.md)
+
 ## `data/cities.json`
 
 مصفوفة من سجلات المحافظات.

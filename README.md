@@ -1,5 +1,7 @@
 # Iraqi Cities and Districts Data
 
+[English](README.md) | [العربية](README_ar.md) | [کوردی](README_ku.md)
+
 Open JSON reference data for Iraqi governorates and their districts
 (subdistricts). The dataset is designed for address forms, delivery
 integrations, geographic lookups, and other applications that need stable
@@ -48,6 +50,21 @@ such as `IQ-NA` and `IQ-KA` to `cities.json.iso_code`.
 
 The GeoJSON file provides boundary geometry only. City and district JSON
 records do not contain latitude/longitude coordinates.
+
+## GitHub Pages
+
+The repository includes `.github/workflows/pages.yml`, which deploys the
+static site automatically when changes are pushed to `main`. In the GitHub
+repository, open **Settings > Pages** and choose **GitHub Actions** as the
+deployment source. The published URL will be:
+
+```text
+https://<owner>.github.io/<repository>/
+```
+
+No build command or server is required. Runtime assets use relative paths, so
+the map, JSON data, GeoJSON, shared CSS, shared JavaScript, and documentation
+links work from a GitHub Pages project subpath.
 
 ## Quick start
 
